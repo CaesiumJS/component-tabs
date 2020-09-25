@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Tabs should only place the rendered tab into the DOM 1`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        Tab 1
+      </li>
+      <li>
+        Tab 2
+      </li>
+    </ul>
+    <div>
+      <p>
+        FOO
+      </p>
+    </div>
+  </div>
+</div>
+`;
