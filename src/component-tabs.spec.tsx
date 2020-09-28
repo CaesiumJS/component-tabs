@@ -34,4 +34,27 @@ describe('Component Tabs', () => {
     expect(getByText('Bar')).toBeInTheDocument()
     expect(tab).toBe(1)
   })
+
+  it('should allow you to set classes for components', () => {
+    const TestComponent: React.FC = () => {
+      return <Tabs classNames={{
+        container: 'test1',
+        tabList: 'test2',
+        tabListEntry: 'test3',
+        activeTabListEntry: 'test4',
+        currentTab: 'test5'
+      }}>
+        <Tab title="Tab 1">
+          <p>FOO</p>
+        </Tab>
+        <Tab title="Tab 2">
+          <p>Bar</p>
+        </Tab>
+      </Tabs>
+    }
+
+    const {container} = render(<TestComponent />)
+
+    expect(container).toMatchSnapshot()
+  })
 })

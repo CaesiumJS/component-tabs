@@ -1,17 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component Tabs should only place the rendered tab into the DOM 1`] = `
+exports[`Component Tabs should allow you to set classes for components 1`] = `
 <div>
-  <div>
-    <ul>
-      <li>
+  <div
+    class="test1"
+  >
+    <ul
+      class="test2"
+    >
+      <li
+        class="test4"
+      >
         Tab 1
       </li>
-      <li>
+      <li
+        class="test3"
+      >
         Tab 2
       </li>
     </ul>
-    <div>
+    <div
+      class="test5"
+    >
+      <p>
+        FOO
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component Tabs should only place the rendered tab into the DOM 1`] = `
+<div>
+  <div
+    class="caesium-tabs-container"
+  >
+    <ul
+      class="caesium-tabs-tab-list"
+    >
+      <li
+        class="caesium-tabs-tab-list-active-entry"
+      >
+        Tab 1
+      </li>
+      <li
+        class="caesium-tabs-tab-list-entry"
+      >
+        Tab 2
+      </li>
+    </ul>
+    <div
+      class="caesium-tabs-currentTab"
+    >
       <p>
         FOO
       </p>
