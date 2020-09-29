@@ -1,5 +1,5 @@
 {
-  "name": "@caesium/hook-notifications",
+  "name": "@caesium/component-tabs",
   "version": "0.0.1",
   "description": "Tabs component for React",
   "main": "lib/component-tabs.js",
