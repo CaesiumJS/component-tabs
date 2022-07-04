@@ -1,6 +1,6 @@
 {
   "name": "@caesium/component-tabs",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "Tabs component for React",
   "main": "lib/component-tabs.js",
   "scripts": {
