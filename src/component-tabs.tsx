@@ -22,6 +22,7 @@ interface TabsProps{
 
 interface TabProps{
   title: string
+  children: React.ReactElement
 }
 
 export const Tabs: React.FC<TabsProps> = ({current, children, onChange, classNames}) => {
